@@ -1,0 +1,53 @@
+Questão 1 - Diferenciar as camadas 2 e 3 do modelo OSI, e indicar os protocolos utilizados para endereçamento nestas camadas.
+
+    Existem diversas diferenças entre essas duas camadas, contudo a principal delas é o escopo de endereçamento utilizado em cada uma delas,
+o que resulta em distintas funções e responsabilidades atribuídas as mesmas.
+    Na Camada de Enlace de Dados (Camada 2) o endereçamento utilizado é o endereço MAC (Media Access Control), um endereço físico único
+atribuído a cada placa de rede de um dispositivo, sendo usado para identificar dispositivos dentro da mesma rede local. Dessa forma, ele
+é relevante apenas para a comunicação direta entre dispositivos que estão na mesma rede local física.
+    Já na Camada de Rede (Camada 3) o endereçamento utilizado é o endereço IP (Internet Protocol), um endereço lógico atribuído a cada 
+dispositivo conectado a uma rede IP, sendo usado para identificar dispositivos em nível global e rotear pacote de dados pela internet e
+diferentes redes. Dessa forma, ele permite a comunicação entre dispositivos em redes e locais geográficos distintos.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+Questão 2 - Qual a diferença entre adotar uma solução proprietária como o sistema operacional Windows quando comparado a adoção de uma
+solução OpenSource como o sistema operacional Ubuntu? Quais seriam os pontos negativos e positivos de cada abordagem?
+
+    Independente da escolha, a decisão implica em vantagens e desvantagens distintas. A diferença reside nesses prós e contras que cada 
+Sistema Operacional possui, ficando a critério do usuário/organização escolher aquele que melhor atende suas necessidades e preferências. 
+    Utilizando-se do Windows, fica claro a sua facilidade de uso, visto que sua interface é familiar em quase todo mundo, tornando-o uma
+escolha conveniente para usuários menos experientes em computadores. Além disso, devido a sua popularidade, muitos aplicativos e programas
+comerciais são desenvolvidos com foco no Windows, assim como a maioria dos dispositivos oferece drivers específicos para a plataforma,
+dessa forma facilitando o suporte de software e hardware aos usuários. Contudo, o seu custo, visto que geralmente tal solução é paga, aliado
+as limitações de personalização, uma vez que o código-fonte do Windows é fechado, configuram pontos negativos do sistema operacional.
+    Utilizando-se do Ubuntu, por outro lado, o sistema é gratuito para download e uso, tendo seu código-fonte acessível a qualquer pessoa, 
+permitindo dessa forma personalizações, melhorias e desenvolvimento colaborativo. Além disso, o Ubuntu opera sob licenças livres, evitando
+questões de licenciamento para empresas, por exemplo. Entretanto, o aprendizado da interface para usuários acostumados com o Windows ou pessoas
+que não possuem familiaridade com computadores e sistemas operacionais pode exigir um período de adaptação mais longo. Aliado a dificuldade no
+aprendizado, alguns programas podem não possuir uma versão compatível com o Ubuntu, assim como alguns dispositivos podem não possuir driver 
+disponíveis para a plataforma.
+    Enfim, como dito anteriormente, é uma questão de elencar as vantagens que melhor se encaixam nas prioridades do usuário/empresa, tendo em
+vista as desvantagens que o Sistema Operacional traz consigo.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+Questão 3 - O que seria um projeto OpenSource? Como empresas podem adotar tais tecnologias e o que isso acarreta?
+
+    Um projeto OpenSource é um projeto de software em que o código-fonte é disponibilizado publicamente e de forma gratuita para qualquer pessoa,
+dessa forma, podendo ser visualizado, modificado, aprimorado e distribuído por qualquer um, desde que sejam seguidas as licenças e termos
+estabelecidos. São várias as características de um projeto OpenSource, como o acesso ao seu código-fonte, permitindo que desenvolvedores e
+usuários examinem o código e contribuam para o projeto. Além disso, por ser governado por uma licença de código aberto, projetos OpenSource,
+na sua grande maioria, possuem uma comunidade ativa e disposta a melhorar ainda mais o software disponibilizado, dessa forma permitindo a
+transparência e colaboração no desenvolvimento.
+    As empresas podem adotar tais tecnologias utilizando diretamente o software desenvolvido, incluindo sistemas operacionais como o Ubuntu, 
+bancos de dados como PostgreSQL e ferramentas de versionamento como o Git. Elas também podem contribuir no desenvolvimento desses projetos, 
+fornecendo melhorias, correções de bugs, documentação de código, etc. Além disso, também é possível o lançamento de projetos próprios como uma
+forma de compartilhar tecnologias desenvolvidas internamente e resgatar apoio de outros desenvolvedores para o desenvolvimento do projeto.
+    Adotando tais tecnologias, são diversas as vantagens que a utilização de projetos OpenSource traz consigo. Dentre elas estão a redução de
+custos e customização, visto que por serem softwares de código aberto eles são gratuitos e permitem personalização conforme as preferências
+da empresa. Também podem ser destacadas a segurança e inovação que a utilização desses projetos acarretam, já que grandes comunidades de 
+desenvolvedores interagem entre si, contribuindo na identificação e correção de vulnerabilidades de segurança, além de compartilharem o 
+conhecimento adquirido entre os indivíduos. Contudo, também existem dificuldades ao adotar tecnologias OpenSource, como garantir o suporte 
+adequado, gerenciar as contribuições internas e estar ciente das obrigações das licenças de código aberto para garantir a conformidade com
+os termos das licenças. 
