@@ -5,7 +5,7 @@
  * @returns {number[]} -> Um array contendo todos os números primos encontrados até o número n.
  * @throws {Error} -> Se o valor de n for menor ou igual a 1, ou se não for um número inteiro.
  *
- * @autho  Eduardo Knopp <eduardoknopp7@gmail.com> (28/07/2023)
+ * @author Eduardo Knopp <eduardoknopp7@gmail.com> (28/07/2023)
  */
 function primos(n) {
     // Valida o input para garantir que seja um número inteiro maior que 1
